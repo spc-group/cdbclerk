@@ -18,7 +18,8 @@ https://spc-group.github.io/cdbclerk/
 Requirements
 ------------
 
-Describe the project requirements (i.e. Python version, packages and how to install them)
+Describe the project requirements (i.e. Python version, packages and
+how to install them)
 
 Installation
 ------------
@@ -33,7 +34,8 @@ The following will download the package and load it into the python environment.
 
 Running the Tests
 -----------------
-::
 
-  $ pip install -e .
+.. code-block:: bash
+
+  $ pip install -e ".[dev]"
   $ pytest -vv
