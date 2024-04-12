@@ -2,10 +2,12 @@
 cdbclerk
 ===============================
 
+|CI badge| |PyPI badge|
 
-.. image:: https://img.shields.io/pypi/v/cdbclerk.svg
+.. |CI badge| image:: https://github.com/spc-group/cdbclerk/actions/workflows/ci.yml/badge.svg
+	:target: https://github.com/spc-group/cdbclerk/actions/workflows/ci.yml
+.. |PyPI badge| image:: https://img.shields.io/pypi/v/cdbclerk.svg
         :target: https://pypi.python.org/pypi/cdbclerk
-
 
 A tool for updating CA/PVA PVs from the components database.
 
