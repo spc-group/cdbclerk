@@ -1,0 +1,11 @@
+[run]
+source =
+    cdbclerk
+[report]
+omit =
+    #versioning
+    .*version.*
+    *_version.py
+    #tests
+    *test*
+    cdbclerk/tests/*
