@@ -19,10 +19,10 @@ classifiers = [
     "Topic :: System :: Hardware",
 ]
 keywords = []
-dependencies = ["pyepics"]
+dependencies = ["pyepics", "caproto"]
 
 [project.optional-dependencies]
-dev = ["black", "pytest", "flake8", "isort"]
+dev = ["black", "pytest", "flake8", "isort", "pytest-asyncio"]
 
 [project.urls]
 Homepage = "https://github.com/spc-group/cdbclerk"
