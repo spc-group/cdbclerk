@@ -33,5 +33,6 @@ async def read_record(prefix: str, fields: Sequence, ctx: Context = None) -> dic
     pvs = await ctx.get_pvs(*pvs)
     # Read the PVs
     values = await asyncio.gather(*[pv.read() for pv in pvs])
+    values = [res.data[0] for res in values]
     result = {field: val for field, val in zip(fields, values)}
     return result

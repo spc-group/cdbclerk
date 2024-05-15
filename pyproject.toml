@@ -28,4 +28,4 @@ dev = ["black", "pytest", "flake8", "isort", "pytest-asyncio"]
 Homepage = "https://github.com/spc-group/cdbclerk"
 
 [project.scripts]
-# command = "cdbclerk.__main__:main"
+cdbclerk = "cdbclerk.__main__:main"

@@ -11,6 +11,18 @@ cdbclerk
 
 A tool for updating CA/PVA PVs from the components database.
 
+Usage
+-----
+
+The main entry point for cdbclerk is the command ``cdbclerk``.
+
+To save the fields for a motor accessible over channel-access at the
+PV "255idcVME:m1" to the components database, run
+
+```bash
+cdbclerk store 255idcVME:m1
+```
+
 Documentation
 -------------
 
