@@ -19,9 +19,10 @@ The main entry point for cdbclerk is the command ``cdbclerk``.
 To save the fields for a motor accessible over channel-access at the
 PV "255idcVME:m1" to the components database, run
 
-```bash
-cdbclerk store 255idcVME:m1
-```
+.. code-block:: bash
+
+    cdbclerk store 255idcVME:m1
+
 
 Documentation
 -------------
@@ -38,7 +39,15 @@ how to install them)
 Installation
 ------------
 
-The following will download the package and load it into the python environment.
+The following will download the package and load it into the python
+environment:
+
+.. code-block:: bash
+    
+    pip install cdbclerk
+
+If you want the latest development version, install it directly from
+github:
 
 .. code-block:: bash
 

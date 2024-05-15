@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "cdbclerk"
-version = "0.0.0"
+version = "0.1"
 authors = [
   { name="Mark Wolfman", email="wolfman@anl.gov" },
 ]
@@ -22,7 +22,7 @@ keywords = []
 dependencies = ["pyepics", "caproto"]
 
 [project.optional-dependencies]
-dev = ["black", "pytest", "flake8", "isort", "pytest-asyncio"]
+dev = ["black", "pytest", "flake8", "isort", "pytest-asyncio", "build", "twine"]
 
 [project.urls]
 Homepage = "https://github.com/spc-group/cdbclerk"
